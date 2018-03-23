@@ -1,89 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>my responsive webpage</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/style.css">   
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-     <script src="script.js"></script>
+    <script src="script.js"></script>
 
 </head>
+
 <body>
-    <div id="page1">
+    <section id="page1">
         <img src="assets/images/page1/photo1.png" class="photo1">
         <nav>
-    <div class="head">
-        <div class="logo-section">
-            <img src="assets/images/page1/blueasy.png" class="blogo">
-            <button class="menu-button"><i class="fa fa-bars"></i></button>
+            <div class="head">
+                <div class="logo-section">
+                    <img src="assets/images/page1/blueasy.png" class="blogo">
+                    <button class="menu-button">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+                <div id="rightheader">
+                    <ul>
+                        <li>
+                            <a href="#page1" class="nav home"> HOME</a>
+                        </li>
+                        <li>
+                            <a href="#page2" class="nav serv">SERVICES</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav fea">FEATURES</a>
+                        </li>
+                        <li>
+                            <a href="#page3" class="nav port">PORTFOLIO</a>
+                        </li>
+                        <li>
+                            <a href="#page5" class="nav cont">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="para">
+            <h1 class="h11">"I'M LOOKING FOR THE UNEXPECTED"</h1>
+            <h1 class="h12">I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE"</h1>
         </div>
-       <div id="rightheader">
+    </section>
+    <section id="page2">
+        <h3>SERVICES</h3>
+        <div id="services">
+            <div class="service">
+                <div class="coffee">
+                    <img src="assets/images/page2/coffee.png" alt="">
+                    <h4>COFFEE</h4>
+                    <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorive bear claw. Jujubes carrot
+                        cake cotton candy sweet tart brownie.Tiramisu applicake jujubes</p>
+                </div>
+                <div class="instant">
+                    <img src="assets/images/page2/instant.png" alt="">
+                    <h4>INSTANT</h4>
+                    <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorive bear claw. Jujubes carrot
+                        cake cotton candy sweet tart brownie.Tiramisu applicake jujubes</p>
+                </div>
+                <div class="serious">
+                    <img src="assets/images/page2/dslr.png" alt="">
+                    <h4>SERIOUS</h4>
+                    <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorive bear claw. Jujubes carrot
+                        cake cotton candy sweet tart brownie.Tiramisu applicake jujubes</p>
+                </div>
+                <div class="frame">
+                    <img src="assets/images/page2/frame.png" alt="">
+                    <h4>FRAME</h4>
+                    <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorive bear claw. Jujubes carrot
+                        cake cotton candy sweet tart brownie.Tiramisu applicake jujubes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="page3">
+        <div class="navBar">
+            <h3>PORTFOLIO</h3>
             <ul>
-                <li><a href="#" class="home"> HOME</a></li>
-                <li><a href="#" class="serv">SERVICES</a></li>
-                <li><a href="#" class="fea">FEATURES</a></li>
-                <li><a href="#" class="port">PORTFOLIO</a></li>
-                <li><a href="#" class="cont">CONTACT</a></li>
-            </ul>   
-       </div> 
-    </div>
-</nav>
-<div class="para">
-<h1 class="h11">"I'M LOOKING FOR THE UNEXPECTED</h1>
-<h1 class="h12">I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE"</h1>
-    </div>
-</div>
-<div id="page2">
-    <h3>SERVICES</h3>
-    <div id="services">
-    <div class="service">
-        <div class="coffee">
-            <img src="assets/images/page2/coffee.png" alt="">
-            <h4>COFFEE</h4>
-            <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorive bear claw. Jujubes carrot cake cotton candy sweet tart brownie.Tiramisu applicake jujubes</p>
+                <li>
+                    <a class="all"> ALL</a>
+                </li>
+                <li>
+                    <a class="pana">PANORAMAS</a>
+                </li>
+                <li>
+                    <a class="portrail">PORTRAIL</a>
+                </li>
+                <li>
+                    <a class="macro">MACRO</a>
+                </li>
+                <li>
+                    <a class="journal">JOURNAL</a>
+                </li>
+            </ul>
         </div>
-        <div class="instant">
-            <img src="assets/images/page2/instant.png" alt="">
-            <h4>INSTANT</h4>
-            <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorive bear claw. Jujubes carrot cake cotton candy sweet tart brownie.Tiramisu applicake jujubes</p>
+        <div id="photos">
+            <img src="assets/images/page3/port1.png" class="p1" alt="">
+            <img src="assets/images/page3/port2.png" class="p2" alt="">
+            <img src="assets/images/page3/port3.png" class="p3" alt="">
+            <img src="assets/images/page3/port4.png" class="p4" alt="">
+            <img src="assets/images/page3/port5.png" class="p5" alt="">
+            <img src="assets/images/page3/port6.png" class="p6" alt="">
+            <img src="assets/images/page3/port7.png" class="p7" alt="">
+            <img src="assets/images/page3/port8.png" class="p8" alt="">
         </div>
-        <div class="serious">
-            <img src="assets/images/page2/dslr.png" alt="">
-            <h4>SERIOUS</h4>
-            <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorive bear claw. Jujubes carrot cake cotton candy sweet tart brownie.Tiramisu applicake jujubes</p>
+    </section>
+    <section id="defaultSection">
+        <div class="leftParaD">
+            <h4>JUST DEFAULT SECTION</h4>
+            <br>
+            <p>
+                bear claw marzipan bear claw apllicake i love muffin.Lemon drops gummi bears pastry gummi bears sesame snaps I love underwear.com.
+                Souflee cotton candy dessert candy ice cream wafer gummies chessecake brownie.
+            </p>
+            <p>
+                Muffin chupa chups jelly beans sweet pie apllicake.Croissant chocolate cake I love pudding.Ice cream I love powder pudding
+                apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee
+            </p>
+            <br>
+            <button>Visit Me</button>
         </div>
-        <div class="frame">
-            <img src="assets/images/page2/frame.png" alt="">
-            <h4>FRAME</h4>
-            <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorive bear claw. Jujubes carrot cake cotton candy sweet tart brownie.Tiramisu applicake jujubes</p>
+        <div class="rightParaD">
+            <img src="assets/images/page3/video.png" alt="">
         </div>
-    </div>
-    </div>
-</div>
-<div id="page3">
-    <div class="navBar">
-        <h3>PORTFOLIO</h3>
-            <ul>
-                    <li><a  class="all"> ALL</a></li>
-                    <li><a  class="pana">PANORAMAS</a></li>
-                    <li><a  class="portrail">PORTRAIL</a></li>
-                    <li><a  class="macro">MACRO</a></li>
-                    <li><a  class="journal">JOURNAL</a></li>
-                </ul>   
-    </div>
-    <div id="photos">
-        <img src="assets/images/page3/port1.png" class="p1" alt="">
-        <img src="assets/images/page3/port2.png" class="p2"alt="">
-        <img src="assets/images/page3/port3.png" class="p3"alt="">
-        <img src="assets/images/page3/port4.png" class="p4"alt="">
-        <img src="assets/images/page3/port5.png" class="p5"alt="">
-        <img src="assets/images/page3/port6.png" class="p6"alt="">
-        <img src="assets/images/page3/port7.png" class="p7"alt="">
-        <img src="assets/images/page3/port8.png" class="p8"alt="">
-    </div>
-</div>
+    </section>
+    <section id="twtr">
+        <h4>TWITTER</h4>
+
+        <p id="para">Underwear cookie liquorice .Cake donut cupcake lollipop souffle candy.Chocolate oat cake @cheesecake tootie roll
+        </p>
+    </section>
 </body>
+
 </html>
